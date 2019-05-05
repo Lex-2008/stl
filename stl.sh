@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if test "$#" != "3"; then
-	echo "$0 <template> <list> <pages>"
+	echo "$0 <template-file> <list-file> <pages-dir>"
 	exit 1
 fi
 
